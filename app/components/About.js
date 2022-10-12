@@ -34,6 +34,7 @@ const About = () => {
                             text={"View my Resume"}
                             href="/resume/Vincent_Gitonga_Resume.pdf"
                             target={"_blank"}
+                            rel="noreferrer"
                         />
                     </div>
                 </div>
