@@ -1,6 +1,8 @@
 import Head from "next/head";
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
 import Showcase from "../components/Showcase";
 import TechStack from "../components/TechStack";
 
@@ -23,6 +25,8 @@ export default function Home() {
             <Showcase />
             <About />
             <TechStack />
+            <Projects />
+            <Contact />
         </div>
     );
 }

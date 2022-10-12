@@ -27,7 +27,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="my-6">
-                        <Btn text={"Contact"} href="#" />
+                        <Btn text={"Contact"} href="#contact" />
                         <Btn text={"View my Resume"} href="#" />
                     </div>
                 </div>

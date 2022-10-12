@@ -1,6 +1,6 @@
 const Showcase = () => {
     return (
-        <section className="mt-20 px-20" style={{ fontFamily: "Poppins" }}>
+        <section className="pt-28 px-20" style={{ fontFamily: "Poppins" }}>
             <div className="container">
                 <div>
                     <h1 className="text-6xl mb-10 text-white">Hi 👋🏾</h1>

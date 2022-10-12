@@ -11,26 +11,26 @@ import SolIcon from "../icons/SolIcon";
 
 const TechStack = () => {
     return (
-        <section className="mt-20 px-20" style={{ fontFamily: "Poppins" }}>
+        <section className="mt-20 px-20" style={{ fontFamily: "Poppins" }} id="tech" >
             <div className="container">
                 <h2 className="text-4xl font-extrabold text-white">
                     Tech Stack
                 </h2>
                 <TechHeading text={"Languages"} />
 
-                <div className="mb-4 flex items-center">
+                <div className="mb-4 flex items-center flex-wrap">
                     <TechItem text={"Python"} Icon={PythonIcon} />
                     <TechItem text={"JavaScript"} Icon={JSIcon} />
                     <TechItem text={"Rust"} Icon={RustIcon} />
                 </div>
                 <TechHeading text={"Frameworks and Libraries"} />
-                <div className="mb-4 flex items-center">
+                <div className="mb-4 flex items-center flex-wrap">
                     <TechItem text={"Next JS"} Icon={NextJSIcon} />
                     <TechItem text={"Django"} Icon={DjangoIcon} />
                     <TechItem text={"React JS"} Icon={ReactJSIcon} />
                 </div>
                 <TechHeading text={"Databases"} />
-                <div className="mb-4 flex items-center">
+                <div className="mb-4 flex items-center flex-wrap">
                     <TechItem text={"Firebase"} Icon={FirebaseIcon} />
                     <TechItem text={"Mongo DB"} Icon={MongoDBIcon} />
                     <TechItem text={"Redis"} Icon={RedisIcon} />
@@ -46,7 +46,7 @@ const TechStack = () => {
 };
 
 const TechItem = ({ text, Icon }) => (
-    <span class="bg-gray-100 text-gray-800 text-xl font-medium inline-flex items-center px-4 py-2 rounded-xl mr-2 dark:bg-gray-700 dark:text-gray-300">
+    <span className="bg-gray-100 text-gray-800 text-xl font-medium inline-flex items-center px-4 py-2 rounded-xl mr-2 dark:bg-gray-700 dark:text-gray-300 mt-2">
         <Icon />
         <div className="ml-2">{text}</div>
     </span>
