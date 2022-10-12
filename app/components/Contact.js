@@ -3,7 +3,7 @@ export default function Contact() {
         <section className="mt-20 px-20" style={{ fontFamily: "Poppins" }} id="contact" >
             <div className="container">
                 <h2 className="text-4xl font-extrabold text-white mb-2">Contact</h2>
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between flex-wrap">
                     <div>
                         <ContactHeading text={"Call"} />
                         <ContactItem
